@@ -3,9 +3,42 @@
 .color_default{
 	color: #f89635;
 }
+.btn_color{
+	background-color: #f89635;
+}
+.atag{
+	color: #f89635
+}
+.fig_color {
+	color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #f89635; } 
 .color_primary{
 	color: #1e283c;
 }
+.separator{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 1rem;
+	color: #f89635
+}
+.separator::before, .separator::after {
+	content: '';
+	flex: 1;
+	border-bottom: 2px solid #f89635;
+  }
+  .separator::before {
+	margin-right: .25em;
+  }
+  .separator::after {
+	margin-left: .25em;
+  }
+  .mh-about-tag ul li span {
+	border: 1px solid #f89635;
+	padding: 4px 10px;
+	border-radius: 4px; }
 .color_secondery{
 	color: #818181;
 }

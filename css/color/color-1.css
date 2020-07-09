@@ -3,6 +3,40 @@
 .color_default{
 	color: #90c923;
 }
+
+.fig_color {
+	color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #90c923; } 
+.btn_color{
+	background-color: #90c923;
+}
+.separator{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 1rem;
+	color: #90c923
+}
+.separator::before, .separator::after {
+	content: '';
+	flex: 1;
+	border-bottom: 2px solid #90c923;
+  }
+  .separator::before {
+	margin-right: .25em;
+  }
+  .separator::after {
+	margin-left: .25em;
+  }
+  .mh-about-tag ul li span {
+	border: 1px solid #90c923;
+	padding: 4px 10px;
+	border-radius: 4px; }
+.atag{
+	color: #90c923
+}
 .color_primary{
 	color: #1e283c;
 }

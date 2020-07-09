@@ -3,9 +3,21 @@
 .color_default{
 	color: #ffb32f;
 }
+.btn_color{
+	background-color: #ffb32f;
+}
+.atag{
+	color: #ffb32f
+}
+.fig_color {
+	color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #ffb32f; } 
 .color_primary{
 	color: #1e283c;
 }
+
 .color_secondery{
 	color: #818181;
 }

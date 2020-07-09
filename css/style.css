@@ -1051,7 +1051,7 @@ ul#menu li a{
         padding: 15px 0;
         border-bottom: 2px solid transparent; }
       .portfolio-nav ul li.current span {
-        border-bottom: 2px solid #FFB32F; }
+        border-bottom: 2px solid red; }
   
   .mh-project-gallery .grid-item figure {
     position: relative;
@@ -1186,11 +1186,11 @@ ul#menu li a{
       transition: all 0.4s ease-out;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
-      .mh-project-gallery .grid-item figure:hover figcaption {
+      /* .mh-project-gallery .grid-item figure:hover figcaption {
         color: #fff;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        background: #FFB32F; }
+        background: #FFB32F; } */
         .mh-project-gallery .grid-item figure:hover figcaption:after {
           opacity: 1;
           transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -3170,15 +3170,20 @@ label.radios {
   cursor: pointer;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #FFB32F;
-}
+} */
 
 .btn.active {
   background-color: #FFB32F;
   color: white;
 }
 
-a{
+/* a{
   color: #FFB32F
+} */
+
+.blackbtns{
+  background-color: #232323;
+  color: white;
 }
